@@ -1,0 +1,75 @@
+.content-container{
+    background-image: url('../images/bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    gap: 25vh;
+    padding: 0px 100px;
+}
+.hero-wrapper{
+    display: flex;
+    align-items: center;
+    /* gap: 100px; */
+    height: 100vh;
+    /* overflow: hidden; */
+    padding-bottom: 50px;
+}
+
+.pic{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    flex: 1;
+    
+}
+.heading{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: left;
+}
+.pic-content{
+    width: 100%;
+      height: 100%;
+}
+
+.howworks{
+    display: flex;
+    flex-direction: row;
+}
+.arrow{
+    width: 50px;
+    height: 50px;
+}
+
+.card-wrapper{
+    text-align: center;
+    padding: 16px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 50%;
+    
+    
+
+  }
+
+  .founder{
+    border-radius: 50%;
+    height: 60px;
+    justify-content: left;
+    text-align: left;
+  }
+
+.testimonial{
+    display: flex;
+    gap: 25px;
+
+  }
+
+.link2{
+    color: green;
+    font-weight: bolder;
+}

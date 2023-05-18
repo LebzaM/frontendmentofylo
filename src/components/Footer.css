@@ -1,0 +1,37 @@
+.footer-container{
+    height: 40vh;
+    background-color: rgb(74, 74, 212);
+    display: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper{
+    display: flex;
+    flex-direction:row;
+    /* gap: 80px;
+    row-gap: 10px; */
+    padding-top: 20px;
+    overflow-x:hidden;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.copyright-footer{
+    width: 100px;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 30px;
+    gap: 20px;
+    padding-left: 40px;
+    cursor: pointer;
+}

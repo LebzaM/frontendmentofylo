@@ -1,0 +1,52 @@
+.access-container{
+    background-color: rgb(77, 77, 148);
+    height: 40vh;
+    display: flex; 
+    flex-direction: column;
+    gap: 25vh;
+    padding: 0px 100px;
+}
+
+.access-wrapper{
+    display: flex;
+    align-items: center;
+    /* gap: 100px; */
+    height: 100vh;
+    /* overflow: hidden; */
+    padding-bottom: 50px;
+}
+
+.pic{
+    flex: 1;
+    
+    flex-direction: column;
+    
+    align-items: right;
+    padding-top: 50px;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    
+}
+.heading{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 150px;
+}
+
+.input{
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+}
+.button{
+    color: white;
+    background-color: aqua;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
