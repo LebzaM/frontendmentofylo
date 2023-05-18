@@ -17,7 +17,7 @@ const Content = () => {
                 <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
                 {/* <a><p>See How it Works </p><img src={arrow}/></a> */}
                 <div className='howworks'>
-                <a href='https://fylo.com/' className='links2'> <p>See How it Works</p></a>
+                <a href='https://fylo.com/' className='links'> <p >See How it Works</p></a>
                   
                   <img src={arrow}className='arrow'/>
                 </div>
