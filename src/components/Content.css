@@ -1,7 +1,7 @@
 .content-container{
     background-image: url('../images/bg-curve-desktop.svg');
     background-repeat: no-repeat;
-    
+    background-size: cover;
     height: 100vh;
     display: flex; 
     flex-direction: column;
